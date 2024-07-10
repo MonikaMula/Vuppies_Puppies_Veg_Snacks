@@ -17,105 +17,106 @@
                 Treats
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="treats-link">
-                <a href="" class="dropdown-item">Biscuits</a>
-                <a href="" class="dropdown-item">Chews</a>
-                <a href="" class="dropdown-item">Cookies</a>
-                <a href="" class="dropdown-item">Bites</a>
-                <a href="" class="dropdown-item">Muffins</a>
-                <a href="" class="dropdown-item">Puffs</a>
-                <a href="" class="dropdown-item">Chips</a>
-                <a href="" class="dropdown-item">Balls</a>
-                <a href="" class="dropdown-item">Bars</a>
-                <a href="" class="dropdown-item">Squares</a>
-                <a href="" class="dropdown-item">Drops</a>
-                <a href="" class="dropdown-item">Patties</a>
-                <a href="" class="dropdown-item">All Treats</a>
+                <a href="{% url 'products' %}?category=biscuits" class="dropdown-item">Biscuits</a>
+                <a href="{% url 'products' %}?category=chews" class="dropdown-item">Chews</a>
+                <a href="{% url 'products' %}?category=cookies" class="dropdown-item">Cookies</a>
+                <a href="{% url 'products' %}?category=bites" class="dropdown-item">Bites</a>
+                <a href="{% url 'products' %}?category=muffins" class="dropdown-item">Muffins</a>
+                <a href="{% url 'products' %}?category=puffs" class="dropdown-item">Puffs</a>
+                <a href="{% url 'products' %}?category=chips" class="dropdown-item">Chips</a>
+                <a href="{% url 'products' %}?category=balls" class="dropdown-item">Balls</a>
+                <a href="{% url 'products' %}?category=bars" class="dropdown-item">Bars</a>
+                <a href="{% url 'products' %}?category=squares" class="dropdown-item">Squares</a>
+                <a href="{% url 'products' %}?category=drops" class="dropdown-item">Drops</a>
+                <a href="{% url 'products' %}?category=patties" class="dropdown-item">Patties</a>
+                <a href="{% url 'products' %}?category=biscuits,chews,cookies,bites,muffins,puffs,chips,balls,bars,squares,drops,patties" class="dropdown-item">All Treats</a>
             </div>
         </li>
-
+        
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="accessories-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Accessories
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="accessories-link">
-                <a href="" class="dropdown-item">Leashes</a>
-                <a href="" class="dropdown-item">Collars</a>
-                <a href="" class="dropdown-item">Harnesses</a>
-                <a href="" class="dropdown-item">Beds</a>
-                <a href="" class="dropdown-item">Crates</a>
-                <a href="" class="dropdown-item">Carriers</a>
-                <a href="" class="dropdown-item">Blankets</a>
-                <a href="" class="dropdown-item">Sweaters</a>
-                <a href="" class="dropdown-item">Raincoats</a>
-                <a href="" class="dropdown-item">Booties</a>
-                <a href="" class="dropdown-item">Bandanas</a>
-                <a href="" class="dropdown-item">Bowties</a>
-                <a href="" class="dropdown-item">All Accessories</a>
+                <a href="{% url 'products' %}?category=leashes" class="dropdown-item">Leashes</a>
+                <a href="{% url 'products' %}?category=collars" class="dropdown-item">Collars</a>
+                <a href="{% url 'products' %}?category=harnesses" class="dropdown-item">Harnesses</a>
+                <a href="{% url 'products' %}?category=beds" class="dropdown-item">Beds</a>
+                <a href="{% url 'products' %}?category=crates" class="dropdown-item">Crates</a>
+                <a href="{% url 'products' %}?category=carriers" class="dropdown-item">Carriers</a>
+                <a href="{% url 'products' %}?category=blankets" class="dropdown-item">Blankets</a>
+                <a href="{% url 'products' %}?category=sweaters" class="dropdown-item">Sweaters</a>
+                <a href="{% url 'products' %}?category=raincoats" class="dropdown-item">Raincoats</a>
+                <a href="{% url 'products' %}?category=booties" class="dropdown-item">Booties</a>
+                <a href="{% url 'products' %}?category=bandanas" class="dropdown-item">Bandanas</a>
+                <a href="{% url 'products' %}?category=bowties" class="dropdown-item">Bowties</a>
+                <a href="{% url 'products' %}?category=leashes,collars,harnesses,beds,crates,carriers,blankets,sweaters,raincoats,booties,bandanas,bowties" class="dropdown-item">All Accessories</a>
             </div>
         </li>
-
+        
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="health-wellness-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Health & Wellness
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="health-wellness-link">
-                <a href="" class="dropdown-item">Food Storage</a>
-                <a href="" class="dropdown-item">Food Scoops</a>
-                <a href="" class="dropdown-item">Water Fountains</a>
-                <a href="" class="dropdown-item">Slow Feeders</a>
-                <a href="" class="dropdown-item">Dental Chews</a>
-                <a href="" class="dropdown-item">Breath Fresheners</a>
-                <a href="" class="dropdown-item">Vitamins</a>
-                <a href="" class="dropdown-item">Supplements</a>
-                <a href="" class="dropdown-item">Probiotics</a>
-                <a href="" class="dropdown-item">Flea & Tick</a>
-                <a href="" class="dropdown-item">All Health & Wellness</a>
+                <a href="{% url 'products' %}?category=food-storage" class="dropdown-item">Food Storage</a>
+                <a href="{% url 'products' %}?category=food-scoops" class="dropdown-item">Food Scoops</a>
+                <a href="{% url 'products' %}?category=water-fountains" class="dropdown-item">Water Fountains</a>
+                <a href="{% url 'products' %}?category=slow-feeders" class="dropdown-item">Slow Feeders</a>
+                <a href="{% url 'products' %}?category=dental-chews" class="dropdown-item">Dental Chews</a>
+                <a href="{% url 'products' %}?category=breath-fresheners" class="dropdown-item">Breath Fresheners</a>
+                <a href="{% url 'products' %}?category=vitamins" class="dropdown-item">Vitamins</a>
+                <a href="{% url 'products' %}?category=supplements" class="dropdown-item">Supplements</a>
+                <a href="{% url 'products' %}?category=probiotics" class="dropdown-item">Probiotics</a>
+                <a href="{% url 'products' %}?category=flea-tick" class="dropdown-item">Flea & Tick</a>
+                <a href="{% url 'products' %}?category=food-storage,food-scoops,water-fountains,slow-feeders,dental-chews,breath-fresheners,vitamins,supplements,probiotics,flea-tick" class="dropdown-item">All Health & Wellness</a>
             </div>
         </li>
-
+        
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="home-travel-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Home & Travel
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="home-travel-link">
-                <a href="" class="dropdown-item">Hair Removers</a>
-                <a href="" class="dropdown-item">Vacuum Cleaners</a>
-                <a href="" class="dropdown-item">Odor Eliminators</a>
-                <a href="" class="dropdown-item">Air Purifiers</a>
-                <a href="" class="dropdown-item">Bed Warmers</a>
-                <a href="" class="dropdown-item">Cooling Mats</a>
-                <a href="" class="dropdown-item">Training Materials</a>
-                <a href="" class="dropdown-item">Adoption Kits</a>
-                <a href="" class="dropdown-item">Travel Kits</a>
-                <a href="" class="dropdown-item">All Home & Travel</a>
+                <a href="{% url 'products' %}?category=hair-removers" class="dropdown-item">Hair Removers</a>
+                <a href="{% url 'products' %}?category=vacuum-cleaners" class="dropdown-item">Vacuum Cleaners</a>
+                <a href="{% url 'products' %}?category=odor-eliminators" class="dropdown-item">Odor Eliminators</a>
+                <a href="{% url 'products' %}?category=air-purifiers" class="dropdown-item">Air Purifiers</a>
+                <a href="{% url 'products' %}?category=bed-warmers" class="dropdown-item">Bed Warmers</a>
+                <a href="{% url 'products' %}?category=cooling-mat" class="dropdown-item">Cooling Mat</a>
+                <a href="{% url 'products' %}?category=training-materials" class="dropdown-item">Training Materials</a>
+                <a href="{% url 'products' %}?category=adoption-kits" class="dropdown-item">Adoption Kits</a>
+                <a href="{% url 'products' %}?category=travel-kits" class="dropdown-item">Travel Kits</a>
+                <a href="{% url 'products' %}?category=hair-removers,vacuum-cleaners,odor-eliminators,air-purifiers,bed-warmers,cooling-mats,training-materials,adoption-kits,travel-kits" class="dropdown-item">All Home & Travel</a>
             </div>
         </li>
-
+        
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="toys-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Toys
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="toys-link">
-                <a href="" class="dropdown-item">Chew Toys</a>
-                <a href="" class="dropdown-item">Fetch Toys</a>
-                <a href="" class="dropdown-item">Puzzle Toys</a>
-                <a href="" class="dropdown-item">Interactive Toys</a>
-                <a href="" class="dropdown-item">Plush Toys</a>
-                <a href="" class="dropdown-item">Squeaky Toys</a>
-                <a href="" class="dropdown-item">All Toys</a>
+                <a href="{% url 'products' %}?category=chew-toys" class="dropdown-item">Chew Toys</a>
+                <a href="{% url 'products' %}?category=fetch-toys" class="dropdown-item">Fetch Toys</a>
+                <a href="{% url 'products' %}?category=puzzle-toys" class="dropdown-item">Puzzle Toys</a>
+                <a href="{% url 'products' %}?category=interactive-toys" class="dropdown-item">Interactive Toys</a>
+                <a href="{% url 'products' %}?category=plush-toys" class="dropdown-item">Plush Toys</a>
+                <a href="{% url 'products' %}?category=squeaky-toys" class="dropdown-item">Squeaky Toys</a>
+                <a href="{% url 'products' %}?category=chew-toys,fetch-toys,puzzle-toys,interactive-toys,plush-toys,squeaky-toys" class="dropdown-item">All Toys</a>
             </div>
         </li>
-
+        
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black" href="#" id="specials-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Special Offers
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item">New Arrivals</a>
-                <a href="" class="dropdown-item">Deals</a>
-                <a href="" class="dropdown-item">Clearance</a>
-                <a href="" class="dropdown-item">All Specials</a>
+                <a href="{% url 'products' %}?category=new-arrivals" class="dropdown-item">New Arrivals</a>
+                <a href="{% url 'products' %}?category=deals" class="dropdown-item">Deals</a>
+                <a href="{% url 'products' %}?category=clearance" class="dropdown-item">Clearance</a>
+                <a href="{% url 'products' %}?category=new-arrivals,deals,clearance" class="dropdown-item">All Specials</a>
             </div>
         </li>
+        
     </ul>
 </div>
